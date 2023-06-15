@@ -12,27 +12,30 @@
         <form class="formulario">
             <h1>Mi Formulario de Registro</h1>
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" id="nombre">
             <label for="apellido">Apellido</label>
-            <input type="text" name="apellido">
+            <input type="text" name="apellido" id="apellido">
             <label for="email">Email</label>
-            <input type="email" name="email">
+            <input type="email" name="email" id="email">
             <label for="contrasena">Contraseña</label>
-            <input type="password" name="contrasena">
+            <input type="password" name="contrasena" id="contrasena">
             <label for="confirmar">Confirmar</label>
-            <input type="password" name="confirmar">
+            <input type="password" name="confirmar" id="confirmar">
             <label for="cumpleanos">Cumpleaños</label>
-            <input type="date" name="cumpleanos">
-            <label for="genero">Genero</label>
+            <input type="date" name="cumpleanos" id="cumpleanos">
+            <label>Genero</label>
             <div class="genero">
-                <input type="radio" name="genero" value="masculino">Masculino</input>
-                <input type="radio" name="genero" value="femenino">Femenino</input>
-                <input type="radio" name="genero" value="otro">Otro</input>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" id="femenino" value="femenino">
+                <label for="otro">Otro / Prefiero no decir</label>
+                <input type="radio" name="genero" id="otro" value="otro">
             </div>
             <label for="descripcion">Descripción</label>
-            <textarea name="descripcion"></textarea>
+            <textarea name="descripcion" id="descripcion"></textarea>
             <label for="lenguaje">Lenguaje favorito</label>
-            <select name="lenguaje">
+            <select name="lenguaje" id="lenguaje">
                 <option value="javascript">JavasScript</option>
                 <option value="java">Java</option>
                 <option value="python">Python</option>

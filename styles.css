@@ -32,8 +32,9 @@ main{
     width: 100%;
 }
 
-.genero input{
-    width: auto;
+.genero label, #masculino, #femenino, #otro{
+    display: inline-block;
+    width: unset;
 }
 
 #btn{
