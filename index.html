@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <main>
+        <img src="./images/welcome.png" alt="imagen de bienvenida" id="imagen_inicio">
+        <form class="formulario">
+            <h1>Mi Formulario de Registro</h1>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" name="contrasena">
+            <label for="confirmar">Confirmar</label>
+            <input type="password" name="confirmar">
+            <label for="cumpleanos">Cumpleaños</label>
+            <input type="date" name="cumpleanos">
+            <label for="genero">Genero</label>
+            <div class="genero">
+                <input type="radio" name="genero" value="masculino">Masculino</input>
+                <input type="radio" name="genero" value="femenino">Femenino</input>
+                <input type="radio" name="genero" value="otro">Otro</input>
+            </div>
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion"></textarea>
+            <label for="lenguaje">Lenguaje favorito</label>
+            <select name="lenguaje">
+                <option value="javascript">JavasScript</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+            </select>
+            <input type="submit" value="Enviar" id="btn">
+        </form>
+    </main>
+</body>
+</html>

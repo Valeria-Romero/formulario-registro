@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(200, 144, 21);
+    color: rgb(50, 50, 50);
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 80px 50px;
+}
+
+.formulario{ /* una clase la llamamos con . antes del nombre */
+    display: inline-block;
+    width: 50%;  
+}
+
+#imagen_inicio{ /* un identificador la llamamos con # antes del nombre */
+    width: 40%;
+    margin-top: 80px;
+    vertical-align: top;
+}
+
+.formulario label{ /* llamamos a la etiqueta label que está dentro del formulario */
+    display: block;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.formulario input, textarea, select{
+    width: 100%;
+}
+
+.genero input{
+    width: auto;
+}
+
+#btn{
+    color: yellow;
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 0;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
